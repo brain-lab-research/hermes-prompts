@@ -1,0 +1,17 @@
+{
+  "source": "https://github.com/brain-lab-research/claude-brainlab",
+  "commit": "f292cf1bb4abb0ce057763de8241766349dfb69e",
+  "directory": "hermes",
+  "files": {
+    "README.md": "88079b2316bbcf32a9a1097c420681b94821e1722b270d074ed35a20f08dd2e5",
+    "general/SOUL.md": "b33a718fdd67ed2330fdf86065e1de714bfd2c49814857027421012a4f9b682c",
+    "paper-scout/SOUL.md": "a8ce5b4bc6c0719f64955458873b438111489e64b358821e085356eab600b848",
+    "paper-scout/prompts/backlog.md": "fdabe1fc8b5f038e3208bf32cfb300feefafc42d29520824f713f3c8f154334d",
+    "paper-scout/prompts/daily.md": "5ffe99857af21053c6c11b08a4d9fd2b30f3d28ee4702ba3c5750c6d16990cc3",
+    "paper-scout/prompts/ingest.md": "28bc86550d703deec2a566fc011f1c85e7966c1ca26191e2fcfdc536acfa6545",
+    "paper-scout/prompts/probe.md": "0fd2c0a350fbb76165b601156c74f7289870dc9308df089e85a2528002fcdbef",
+    "paper-scout/prompts/sync.md": "937d9ef243ad2bf9fda755494a5156fa95ca0574d3eef0009e35b73788436f3c",
+    "paper-scout/prompts/verify.md": "313f4de19c5d369c20684eb4a21983ad6a2eb21dc87347a98457b1fb9c7ace96",
+    "paper-scout/prompts/want-to-read.md": "56f8096cbd2b1b85cef461aa5104931f6ba91791c2cbda857734f31ee557dfe6"
+  }
+}
