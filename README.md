@@ -1,4 +1,4 @@
-> Standalone snapshot of the public [BRAIn Lab Hermes prompts](https://github.com/brain-lab-research/claude-brainlab/tree/f292cf1bb4abb0ce057763de8241766349dfb69e/hermes).
+> Standalone snapshot of the public [BRAIn Lab Hermes prompts](https://github.com/brain-lab-research/claude-brainlab/tree/b2a687136a385d7e3f4e8fbf47f5b541c2a60594/hermes).
 > The prompt files are unchanged. `UPSTREAM.json` records the source revision and file checksums.
 > The canonical source remains `claude-brainlab/hermes`; updates are copied from a reviewed upstream revision, not synchronized automatically.
 > This repository contains prompt templates, not the Hermes Agent runtime or private project profiles.
@@ -22,6 +22,26 @@ hermes cron create "0 7 * * *" "$(cat paper-scout/prompts/daily.md)" --name pape
 ```
 
 Описание профиля не косметика: по нему доска решает, какому профилю отдать работу.
+
+## Задачи владельца в Yonote
+
+Hermes может выполнять задачи своего проекта, порученные его владельцу. Человек остаётся
+исполнителем в Yonote; выполнение Hermes связывается с исходной карточкой по ID. Личная
+очередь запусков и её обзор в Obsidian остаются в проекте. Для чтения общей доски нужен
+действующий серверный доступ, для изменения статуса — проверка назначения и сохранение
+остальных полей задачи.
+
+Подключайте контракт `references/yonote-tasks.md` из установленного навыка `lab-knowledge`
+в каждом рабочем профиле. Ссылки на страницу и доску должны
+лежать в проектном контексте рядом с GitHub/Overleaf. Отсутствующая привязка или
+непроверенный способ обновления означают, что автоматическое выполнение ещё не включено.
+
+Для подключённого проекта есть четыре операции MCP: увидеть порученные владельцу задачи,
+прочитать карточку и обсуждение, начать работу, записать итог. Итог дописывается в поле
+«Итог работы»; результат и статус сохраняются вместе с проверкой версии карточки.
+При необходимости проверки человеком задача остаётся в работе. При блокировке Hermes
+указывает, какая помощь нужна и от кого. Описание, сроки, исполнитель и обсуждение сохраняются.
+Проверка задач входит в обычный рабочий цикл проекта; отдельный модельный таймер не нужен.
 
 ## Что здесь
 

@@ -1,10 +1,10 @@
 {
   "source": "https://github.com/brain-lab-research/claude-brainlab",
-  "commit": "f292cf1bb4abb0ce057763de8241766349dfb69e",
+  "commit": "b2a687136a385d7e3f4e8fbf47f5b541c2a60594",
   "directory": "hermes",
   "files": {
-    "README.md": "88079b2316bbcf32a9a1097c420681b94821e1722b270d074ed35a20f08dd2e5",
-    "general/SOUL.md": "b33a718fdd67ed2330fdf86065e1de714bfd2c49814857027421012a4f9b682c",
+    "README.md": "ab1c70734920973d2da38dcf7c3ce2646782932880dbd6b439d61c9d1c294928",
+    "general/SOUL.md": "4e69137f9a38882555fb747381bb6d732f1f208cb958045cd848b16c7951d37e",
     "paper-scout/SOUL.md": "a8ce5b4bc6c0719f64955458873b438111489e64b358821e085356eab600b848",
     "paper-scout/prompts/backlog.md": "fdabe1fc8b5f038e3208bf32cfb300feefafc42d29520824f713f3c8f154334d",
     "paper-scout/prompts/daily.md": "5ffe99857af21053c6c11b08a4d9fd2b30f3d28ee4702ba3c5750c6d16990cc3",
